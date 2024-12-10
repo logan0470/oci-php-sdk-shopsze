@@ -2690,7 +2690,7 @@ class ObjectStorageClient extends AbstractClient
             HttpUtils::addToArray($__headers, "contentMD5", HttpUtils::attemptEncodeParam($contentMD5));
         }
         if ($contentType != null) {
-            HttpUtils::addToArray($__headers, "contentType", HttpUtils::attemptEncodeParam($contentType));
+            HttpUtils::addToArray($__headers, "content-Type", HttpUtils::attemptEncodeParam($contentType));
         }
         if ($contentLanguage != null) {
             HttpUtils::addToArray($__headers, "contentLanguage", HttpUtils::attemptEncodeParam($contentLanguage));
