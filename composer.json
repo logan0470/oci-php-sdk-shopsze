@@ -1,5 +1,5 @@
 {
-    "name": "oracle/oci-php-sdk-shopze",
+    "name": "shposze/oci-php-sdk-shopze",
     "version": "0.1.0",
     "homepage": "https://docs.oracle.com/en-us/iaas/Content/API/Concepts/devtoolslanding.htm",
     "description": "OCI SDK for PHP - Oracle Cloud Infrastructure services in your PHP project",
